@@ -1,0 +1,62 @@
+desain table
+
+- users
+	- (default)
+
+- jamaah
+	- user_id
+	- nama - string
+	- gender [L, P]
+	- tgl lahir - date
+	- usia - string
+	- email - string
+	- no telpon (wa) - string
+	- alamat
+		- alamat
+		- kelurahan
+		- kecamatan
+		- kab/kota
+		- prov
+	- tgl keberengkatan - date
+	- tgl expire - date
+	- status payment [dp, lunas]
+	- status proses passport [belum, proses, selesai]
+	- status suntik [belum, selesai]
+	- checklist perlengkapan jamaah - string of array
+
+- agent
+	- user_id
+	- nama - string
+	- gender [L, P]
+	- tgl lahir - date
+	- usia - string
+	- email - string
+	- no telpon (wa) - string
+	- (fitur) list progress jamaah -> list jamaah (order tanggal keberangkatan)
+	- status payment fee (belum tau)
+
+- pemasukan
+	- user_id
+	- sumber
+	- jenis
+	- jumlah
+	- tanggal
+
+-jenis pemasukan
+	- nama
+	- deskripsi
+
+- pengeluaran
+	- user_id
+	- tujuan
+	- jenis
+	- jumlah
+	- tanggal
+
+-jenis pengeluaran
+	- nama
+	- deskripsi
+
+cat: 
+	- username untuk setiap data yang dibuat
+	- 

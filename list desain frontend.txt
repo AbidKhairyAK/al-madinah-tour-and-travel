@@ -1,0 +1,11 @@
+- datatable
+- detail
+- form
+- info card
+- chart
+- beranda
+
+- kirim pesan
+	- form pesan
+	- daftar kontak - grup
+	- template pesan

@@ -1,0 +1,27 @@
+- marketing?
+
+- jamaah:
+	- nama
+	- gender
+	- tgl lahir
+	- usia
+	- email
+	- no telpon (wa)
+	- alamat (kab/kota)
+	- tgl keberengkatan
+	- tgl expire
+	- status payment (dp - pelunasan)
+	- status proses passport
+	- status suntik
+	- checklist perlengkapan jamaah
+
+- agent:
+	- nama
+	- gender
+	- tgl lahir
+	- usia
+	- email
+	- no telpon (wa)
+	- list progress jamaah
+	- status payment fee
+	- dll
