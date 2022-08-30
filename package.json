@@ -25,7 +25,7 @@
     },
     "dependencies": {
         "moment": "^2.24.0",
-        "moment-timezone": "^0.5.26",
+        "moment-timezone": "^0.5.35",
         "v-calendar": "^1.0.0-beta.16",
         "vue-moment": "^4.0.0",
         "vue-moment-tz": "^2.1.1"
